@@ -9,8 +9,8 @@ import node from "../assets/node.png";
 import github from "../assets/github.png";
 import sass from "../assets/sass.png";
 import bootstraps from "../assets/bootstraps.png";
-import jquery from "../assets/jquery.png";
-import tailwind from "../assets/tailwind.png";
+//import jquery from "../assets/jquery.png";
+//import tailwind from "../assets/tailwind.png";
 import express from "../assets/express.png";
 
 const Experience = () => {
@@ -74,20 +74,22 @@ const Experience = () => {
       src: github,
       title: "GitHub",
       style: "shadow-white",
-    },
-
+    }
+/**
     {
       id: 11,
       src: jquery,
       title: "jQuery",
       style: "shadow-blue-600",
     },
+     
     {
       id: 12,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
-    },
+    }
+    */
   ];
 
   return (
@@ -103,7 +105,7 @@ const Experience = () => {
           <p className="py-6">These are the techologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-5 text-center py-8 px-10 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
