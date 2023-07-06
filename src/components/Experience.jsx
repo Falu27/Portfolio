@@ -9,8 +9,8 @@ import node from "../assets/node.png";
 import github from "../assets/github.png";
 import sass from "../assets/sass.png";
 import bootstraps from "../assets/bootstraps.png";
-//import jquery from "../assets/jquery.png";
-//import tailwind from "../assets/tailwind.png";
+import jquery from "../assets/jquery.png";
+import tailwind from "../assets/tailwind.png";
 import express from "../assets/express.png";
 
 const Experience = () => {
@@ -74,28 +74,25 @@ const Experience = () => {
       src: github,
       title: "GitHub",
       style: "shadow-white",
-    }
-/**
+    },
     {
       id: 11,
       src: jquery,
       title: "jQuery",
       style: "shadow-blue-600",
     },
-     
     {
       id: 12,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     }
-    */
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-black to-gray-900 w-full h-screen"
+      className="bg-gradient-to-b from-black to-gray-900 w-full h-fit"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
