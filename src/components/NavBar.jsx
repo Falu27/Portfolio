@@ -60,7 +60,9 @@ const NavBar = () => {
       {nav && (
 
       <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400">
-          
+        
+        <button className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-110 text-yellow-500" onClick={()=> i18n.changeLanguage(t("navbar.lng"))} >{t("navbar.lng2")}</button>  
+
       {links.map(({ id, link}) =>(
         <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-110">
         <Link onClick={()=> setNav(!nav)} to={link} smooth duration={700}>
