@@ -6,8 +6,10 @@ import navbar from "../assets/portfolio/navbar.png";
 import reactParallax from "../assets/portfolio/reactParallax.png";
 import reactSmooth from "../assets/portfolio/reactSmooth.png";
 import reactWeather from "../assets/portfolio/reactWeather.png";
+import { useTranslation } from "react-i18next";
 
 const Portfolio = () => {
+  const [t]= useTranslation("global");
   const portfolios = [
     {
       id: 1,
@@ -45,7 +47,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-600">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">{t("portfolio.check")}</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
@@ -58,10 +60,10 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+                  {t("portfolio.demo")}
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                  {t("portfolio.code")}
                 </button>
               </div>
             </div>

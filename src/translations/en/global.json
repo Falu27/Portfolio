@@ -1,0 +1,40 @@
+{
+    "about": {
+        "about": "About",
+        "p1": "I am a person with ambition knowledge and learning, with attitude positive and work ethic. Thanks to the different abilities that I was acquiring with time and effort, I position as FrontEnd Developer working with HTML, CSS, Sass, NodeJs, JavaScript and React. I seek to continue learning and growing in the field of programming, being able to participate and contribute to new projects and challenges. I am currently studying BackEnd stack MERN (Mongo Db - Express - React - NodeJs).",
+        "p2":"I have some extra knowledge of Computer Science, WordPress, Office Tools, among others. Management of Photoshop, which I use a lot for designs and editions of images used in projects."
+        
+    },
+    "contact":{
+        "contact": "Contact",
+        "form1": "Submit the form below to get in touch with me.",
+        "name": "Enter your name",
+        "mail": "Enter your email",
+        "message": "Enter your message",
+        "talk": "Let's talk!"
+    },
+    "experience":{
+        "experience":"Experience",
+        "tech":"These are the techologies I've worked with"
+    },
+    "home":{
+        "title":"Front-End Developer",
+        "description":"I have 2 years of experience building and desgining software. Currently, i love to work on web application using technologies like Html, CSS, JS, React, Bootstraps, Tailwind."
+    },
+    "navbar":{
+        "home":"home",
+        "about":"about",
+        "experience":"experience",
+        "contact":"contact",
+        "lng":"es",
+        "lng2":"Es"
+    },
+    "portfolio":{
+        "check":"Check out some of my work right here",
+        "demo":"Demo",
+        "code":"Code"
+    },
+    "social":{
+        "cv":"Resume"
+    }
+}

@@ -1,22 +1,28 @@
 import React, {useState} from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll"
+
+import { useTranslation } from "react-i18next";
+
+
+
 const NavBar = () => {
-
   const [nav, setNav] = useState(false);
-
-    const links = [
-        {
+  const [t, i18n]= useTranslation("global");
+    
+  const links = [ 
+      
+      {
             id: 1,
-            link: 'home'
+            link: t("navbar.home")
         },
         {
             id: 2,
-            link: 'about'
+            link: t("navbar.about")
         },
         {
             id: 3,
-            link: 'experience'
+            link: t("navbar.experience")
         },
         {
             id: 4,
@@ -24,10 +30,10 @@ const NavBar = () => {
         },
         {
             id: 5,
-            link: 'contact'
+            link: t("navbar.contact")
         }
     ]
-
+    
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
@@ -36,6 +42,8 @@ const NavBar = () => {
 
       <ul className="hidden md:flex">
 
+      <button className="px-4 cursor-pointer capitalize font-medium text-yellow-500 hover:scale-110 duration-300" onClick={()=> i18n.changeLanguage(t("navbar.lng"))} >{t("navbar.lng2")}</button>
+      
     {links.map(({ id, link}) =>(
         <li key={id} className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-110 duration-300">
         <Link to={link} smooth duration={700}>
@@ -44,7 +52,6 @@ const NavBar = () => {
       </li>
     ))}
       </ul>
-
       <div onClick={()=> setNav (!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
 
         {nav ? <FaTimes size={30} /> : <FaBars size={30}/>}

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -12,8 +13,10 @@ import bootstraps from "../assets/bootstraps.png";
 import jquery from "../assets/jquery.png";
 import tailwind from "../assets/tailwind.png";
 import express from "../assets/express.png";
+import { useTranslation } from "react-i18next";
 
 const Experience = () => {
+  const [t]= useTranslation("global");
   const techs = [
     {
       id: 1,
@@ -91,15 +94,15 @@ const Experience = () => {
 
   return (
     <div
-      name="experience"
+      name={t("navbar.experience")}
       className="bg-gradient-to-b from-black to-gray-900 w-full h-fit"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-600 p-2 inline">
-            Experience
+            {t("experience.experience")}
           </p>
-          <p className="py-6">These are the techologies I've worked with</p>
+          <p className="py-6">{t("experience.tech")}</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-5 text-center py-8 px-10 sm:px-0">
