@@ -42,7 +42,7 @@ const SocialLinks = () => {
                 {t("social.cv")} <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '/CVGalota.pdf',
+            href: '/GalotaCV.pdf',
             style: 'rounded-br-md',
             download: true,
         }
