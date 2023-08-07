@@ -1,8 +1,8 @@
 {
     "about": {
         "about": "About",
-        "p1": "I am a person with ambition knowledge and learning, with attitude positive and work ethic. Thanks to the different abilities that I was acquiring with time and effort, I position as FrontEnd Developer working with HTML, CSS, Sass, NodeJs, JavaScript and React. I seek to continue learning and growing in the field of programming, being able to participate and contribute to new projects and challenges. I am currently studying BackEnd stack MERN (Mongo Db - Express - React - NodeJs).",
-        "p2":"I have some extra knowledge of Computer Science, WordPress, Office Tools, among others. Management of Photoshop, which I use a lot for designs and editions of images used in projects."
+        "p1": "I am a person with ambition knowledge and learning, with attitude positive and work ethic. Thanks to the different abilities that I was acquiring with time and effort, I position as FrontEnd Developer working with HTML, CSS, Sass, NodeJs, JavaScript, Bootstraps, Tailwind and React. Work with Git and GitHub. I seek to continue learning and growing in the field of programming, being able to participate and contribute to new projects and challenges. I am currently studying BackEnd stack MERN (Mongo Db - Express - React - NodeJs).",
+        "p2":"I have extra knowledge of Computer Science, WordPress, Office Tools, management of Photoshop, for designs and editions of images in projects."
         
     },
     "contact":{

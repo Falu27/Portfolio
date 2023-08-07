@@ -13,6 +13,8 @@ import bootstraps from "../assets/bootstraps.png";
 import jquery from "../assets/jquery.png";
 import tailwind from "../assets/tailwind.png";
 import express from "../assets/express.png";
+import git from "../assets/git.png"
+import ps from "../assets/ps.png"
 import { useTranslation } from "react-i18next";
 
 const Experience = () => {
@@ -89,6 +91,18 @@ const Experience = () => {
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
+    },
+    {
+      id: 13,
+      src: git,
+      title: "Git",
+      style: "shadow-red-500",
+    },
+    {
+      id: 14,
+      src: ps,
+      title: "Photoshop",
+      style: "shadow-blue-500",
     }
   ];
 
