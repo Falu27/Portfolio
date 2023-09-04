@@ -8,6 +8,7 @@ import reactSmooth from "../assets/portfolio/reactSmooth.png";
 import reactWeather from "../assets/portfolio/reactWeather.png";
 import reactProject from "../assets/portfolio/ReactApp.png"
 import jsApp from "../assets/portfolio/JavaScriptApp.png"
+import memoryJs from "../assets/portfolio/MemoryJs.png"
 
 import { useTranslation } from "react-i18next";
 import ButtonLink from "./ButtonLink";
@@ -55,6 +56,11 @@ const Portfolio = () => {
       id: 8,
       src: jsApp,
       ul:"https://galotafabrizio.com/ProyectoJava/",
+    },
+    {
+      id: 9,
+      src: memoryJs,
+      ul:"https://galotafabrizio.com/MemoryJs/",
     },
   ];
 
