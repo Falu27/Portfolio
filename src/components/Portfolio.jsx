@@ -1,11 +1,11 @@
 import React from "react";
 
-import arrayDestruct from "../assets/portfolio/arrayDestruct.png";
-import installNode from "../assets/portfolio/installNode.png";
-import navbar from "../assets/portfolio/navbar.png";
-import reactParallax from "../assets/portfolio/reactParallax.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.png";
-import reactWeather from "../assets/portfolio/reactWeather.png";
+import desarrolloWeb from "../assets/portfolio/desarrolloWeb.png";
+import javaScript from "../assets/portfolio/javaScript.png";
+import desarrolloWebResponsivear from "../assets/portfolio/desarrolloWebResponsive.png";
+import reactJs from "../assets/portfolio/reactJs.png";
+import frontendReact from "../assets/portfolio/frontendReact.png";
+import backMern from "../assets/portfolio/backMern.png";
 import reactProject from "../assets/portfolio/ReactApp.png"
 import jsApp from "../assets/portfolio/JavaScriptApp.png"
 import memoryJs from "../assets/portfolio/MemoryJs.png"
@@ -18,33 +18,33 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: desarrolloWeb,
       ul:"https://drive.google.com/file/d/1zVYPHTzp35VMkOf0uQI20f40hB8YormZ/view?usp=sharing",
     },
     {
       id: 2,
-      src: installNode,
+      src: javaScript,
       ul:"https://drive.google.com/file/d/1cyCRKXA2I8LIeiNAh-qkP9cAzfggLmZD/view?usp=sharing",
 
     },
     {
       id: 3,
-      src: navbar,
+      src: desarrolloWebResponsivear,
       ul:"https://drive.google.com/file/d/1MCcOqm_8JnIlLagGRmDahteX45JLjyHp/view?usp=sharing",
     },
     {
       id: 4,
-      src: reactParallax,
+      src: reactJs,
       ul:"https://drive.google.com/file/d/1wluOQ5gw-kTcMSBMui6VsdZanzpto6mx/view?usp=sharing",
     },
     {
       id: 5,
-      src: reactSmooth,
+      src: frontendReact,
       ul:"https://drive.google.com/file/d/1hIK9JOdbFW_Nmr-o3CofRie-xtegAPYm/view?usp=sharing",
     },
     {
       id: 6,
-      src: reactWeather,
+      src: backMern,
       ul:"https://drive.google.com/file/d/1Cl5QdpMDrWKP5oWxQiPJ8cATyDArXGnI/view?usp=sharing",
     },
     {
