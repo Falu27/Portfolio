@@ -13,8 +13,10 @@ import bootstraps from "../assets/bootstraps.png";
 import jquery from "../assets/jquery.png";
 import tailwind from "../assets/tailwind.png";
 import express from "../assets/express.png";
-import git from "../assets/git.png"
-import ps from "../assets/ps.png"
+import git from "../assets/git.png";
+import ps from "../assets/ps.png";
+import python from "../assets/python.png";
+import sqlite from "../assets/sqlite.png";
 import { useTranslation } from "react-i18next";
 
 const Experience = () => {
@@ -103,6 +105,18 @@ const Experience = () => {
       src: ps,
       title: "Photoshop",
       style: "shadow-blue-500",
+    },
+    {
+      id: 15,
+      src: python,
+      title: "Python",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 16,
+      src: sqlite,
+      title: "SQLite",
+      style: "shadow-blue-300",
     }
   ];
 
