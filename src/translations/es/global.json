@@ -1,8 +1,8 @@
 {
     "about": {
         "about": "Sobre Mi",
-        "p1": "Soy una persona con ambicion de conocimiento y aprendizaje, con actitud y etica de trabajo. Gracias a las diferentes habilidades que fui adquiriendo con tiempo y esfuerzo, logre posicionarme como Desarrollador FrontEnd, trabajando con HTML, CSS, Sass, NodeJs, JavaScript, Bootstraps, Tailwind y React. Manejo completo de Git y GitHub. Busco seguir aprendiendo y creciendo en el campo de la programacion, para participar y contribuir en nuevos proyectos y retos. Actualmente estoy estudiando BackEnd, MERN Stack (MongoDB - Express - React - NodeJs).",
-        "p2":"Poseo conocimientos extras de Informatica, WordPress, Herramientas Office, manejo de Photoshop, para diseños, logos o ediciones que utilizo en proyectos."
+        "p1": "Soy de Cordoba, Argentina. Me considero una persona con ambicion de conocimiento y aprendizaje, con actitud y etica de trabajo. Gracias a las diferentes habilidades que fui adquiriendo con tiempo y esfuerzo, logre posicionarme como Desarrollador FrontEnd. Mi mayor motivacion es seguir aprendiendo y creciendo en el campo de la programacion, para participar y contribuir en nuevos proyectos y retos. Me apasiona la programacion y todo lo que se puede lograr a partir del codigo. Actualmente estoy estudiando BackEnd, MERN Stack (MongoDB - Express - React - NodeJs).",
+        "p2":"Poseo conocimientos de sofwate y hardware, Herramientas Office, Photoshop, entre otros."
         
     },
     "contact":{
@@ -19,7 +19,7 @@
     },
     "home":{
         "title":"Desarrollador Front-End",
-        "description":"Poseo 2 años de experiencia construyendo y diseñando software. Actualmente me encanta trabajar en aplicaciones Web utilizando tecnologias como Html, Css, JS, React, Bootstraps, Tailwind, entre otras."
+        "description":"Poseo 3 años de experiencia diseñando y desarrollando software. Me encanta trabajar en aplicaciones Web completas, utilizando HTML, CSS, JavaScript y React, acompañado de frameworks y Herramientas como Bootstraps, Tailwind y mas."
     },
     "navbar":{
         "home":"Inicio",
