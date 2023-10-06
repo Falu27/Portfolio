@@ -9,6 +9,7 @@ import backMern from "../assets/portfolio/backMern.png";
 import reactProject from "../assets/portfolio/ReactApp.png"
 import jsApp from "../assets/portfolio/JavaScriptApp.png"
 import memoryJs from "../assets/portfolio/MemoryJs.png"
+import portfolioNew from "../assets/portfolio/portfolioNew.png"
 
 import { useTranslation } from "react-i18next";
 import ButtonLink from "./ButtonLink";
@@ -62,12 +63,17 @@ const Portfolio = () => {
       src: memoryJs,
       ul:"https://galotafabrizio.com/MemoryJs/",
     },
+    {
+      id: 10,
+      src: portfolioNew,
+      ul:"https://galotafabrizio.com/portfolio/",
+    }
   ];
 
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-gray-900 to-black w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-gray-900 to-black w-full text-white md:h-fit"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
