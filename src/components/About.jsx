@@ -18,12 +18,6 @@ const About = () => {
         <p className="text-xl mt-10">
           {t("about.p1")}
         </p>
-
-        <br />
-
-        <p className="text-xl">
-          {t("about.p2")}
-        </p>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import FabImage from "../assets/Fabrizio.png";
+import FabImage from "../assets/Fabrizio2.png";
 import { TiArrowRightOutline } from "react-icons/ti";
 import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
@@ -38,7 +38,7 @@ const Home = () => {
           <img
             src={FabImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-full border-2 border-white-500"
           />
         </div>
       </div>
