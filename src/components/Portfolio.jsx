@@ -10,6 +10,7 @@ import reactProject from "../assets/portfolio/ReactApp.png"
 import jsApp from "../assets/portfolio/JavaScriptApp.png"
 import memoryJs from "../assets/portfolio/MemoryJs.png"
 import portfolioNew from "../assets/portfolio/portfolioNew.png"
+import adm from "../assets/portfolio/airesdemontana.png"
 
 import { useTranslation } from "react-i18next";
 import ButtonLink from "./ButtonLink";
@@ -67,6 +68,11 @@ const Portfolio = () => {
       id: 10,
       src: portfolioNew,
       ul:"https://galotafabrizio.com/portfolio/",
+    },
+    {
+      id: 11,
+      src: adm,
+      ul:"https://xn--cabaasairesdemontaa-y3bo.com/",
     }
   ];
 
