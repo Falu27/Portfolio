@@ -15,7 +15,7 @@ import tailwind from "../assets/tailwind.png";
 import express from "../assets/express.png";
 import git from "../assets/git.png";
 import ps from "../assets/ps.png";
-import python from "../assets/python.png";
+import postgre from "../assets/postgre.png";
 import sqlite from "../assets/sqlite.png";
 import { useTranslation } from "react-i18next";
 
@@ -108,9 +108,9 @@ const Experience = () => {
     },
     {
       id: 15,
-      src: python,
-      title: "Python",
-      style: "shadow-yellow-500",
+      src: postgre,
+      title: "PostgreSQL",
+      style: "shadow-blue-400",
     },
     {
       id: 16,
