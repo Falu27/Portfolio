@@ -19,7 +19,7 @@
     },
     "home":{
         "title":"Desarrollador Front-End",
-        "description":"Poseo 3 años de experiencia diseñando y desarrollando software. Me encanta trabajar en aplicaciones Web completas, utilizando HTML, CSS, JavaScript y React, acompañado de frameworks y Herramientas como Bootstraps, Tailwind y mas. Actualmente estoy terminando la carrera de BackEnd para completar mi formacion Full Stack."
+        "description":"Poseo experiencia diseñando y desarrollando software. Me encanta trabajar en aplicaciones Web completas, utilizando HTML, CSS, JavaScript y React, acompañado de frameworks y Herramientas como Bootstraps, Tailwind y mas. Actualmente estoy terminando la carrera de BackEnd para completar mi formacion Full Stack."
     },
     "navbar":{
         "home":"Inicio",

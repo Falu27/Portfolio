@@ -41,16 +41,28 @@ const Experience = () => {
       style: "shadow-pink-400",
     },
     {
-      id: 4,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
+      id: 13,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-sky-400",
     },
     {
       id: 5,
       src: bootstraps,
       title: "Bootstrap",
       style: "shadow-purple-500",
+    },
+    {
+      id: 4,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 12,
+      src: jquery,
+      title: "jQuery",
+      style: "shadow-blue-600",
     },
     {
       id: 6,
@@ -60,51 +72,33 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: mongodb,
-      title: "Mongo DB",
-      style: "shadow-green-600",
-    },
-    {
-      id: 8,
-      src: node,
-      title: "Node",
-      style: "shadow-green-400",
-    },
-    {
-      id: 9,
-      src: express,
-      title: "Express",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 10,
-      src: github,
-      title: "GitHub",
-      style: "shadow-white",
-    },
-    {
-      id: 11,
-      src: jquery,
-      title: "jQuery",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 12,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 13,
       src: git,
       title: "Git",
       style: "shadow-red-500",
     },
     {
-      id: 14,
-      src: ps,
-      title: "Photoshop",
-      style: "shadow-blue-500",
+      id: 8,
+      src: github,
+      title: "GitHub",
+      style: "shadow-white",
+    },
+    {
+      id: 9,
+      src: mongodb,
+      title: "Mongo DB",
+      style: "shadow-green-600",
+    },
+    {
+      id: 10,
+      src: node,
+      title: "Node",
+      style: "shadow-green-400",
+    },
+    {
+      id: 11,
+      src: express,
+      title: "Express",
+      style: "shadow-gray-400",
     },
     {
       id: 15,
@@ -117,7 +111,13 @@ const Experience = () => {
       src: sqlite,
       title: "SQLite",
       style: "shadow-blue-300",
-    }
+    },
+    {
+      id: 14,
+      src: ps,
+      title: "Photoshop",
+      style: "shadow-blue-500",
+    },
   ];
 
   return (
