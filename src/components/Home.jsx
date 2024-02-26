@@ -1,5 +1,5 @@
 import React from "react";
-import FabImage from "../assets/Fabrizio2.png";
+import FabImage from "../assets/FabrizioImg.png";
 import { TiArrowRightOutline } from "react-icons/ti";
 import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";

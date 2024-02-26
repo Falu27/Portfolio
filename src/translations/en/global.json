@@ -1,8 +1,7 @@
 {
     "about": {
         "about": "About",
-        "p1": "I am from Cordoba, Argentina. I consider myself a person with ambition for knowledge and learning, with an attitude and work ethic. Thanks to the different skills that I acquired with time and effort, I managed to position myself as a FrontEnd Developer. My greatest motivation is to continue learning and growing in the field of programming, to participate and contribute to new projects and challenges. I am passionate about programming and everything that can be achieved from code. I am currently studying BackEnd, MERN Stack (MongoDB - Express - React - NodeJs).",
-        "p2":"I have knowledge of software and hardware, Office Tools, Photoshop, among others."
+        "p1": "My name is Fabrizio, I am from Córdoba Argentina. I am a proactive person and passionate about technology, always looking to keep up to date with the latest trends and tools in the field of programming. So with time and effort, I positioned myself as a Front-End Developer at CoderHouse and Academia-X. Some time later I finished my BackEnd stack MERN studies. In addition to my computer science studies, I am a student at the language faculty, to improve my level of English. I would like to apply my knowledge and skills, add value to a team of programmers. I am willing to learn and develop professionally, and I am confident that I can contribute to success."
         
     },
     "contact":{
@@ -18,8 +17,8 @@
         "tech":"These are the techologies I've worked with"
     },
     "home":{
-        "title":"Front-End Developer",
-        "description":"I have experience designing and developing software. I love working on complete Web applications, using HTML, CSS, JavaScript and React, accompanied by frameworks and Tools such as Bootstraps, Tailwind and more."
+        "title":"Full-Stack Developer",
+        "description":"In my career, I have had the opportunity to work on different programming projects. I have developed applications using Html, CSS, Sass, Bootsrap, Tailwind, JavaScript, NodeJs, React and NextJs, and SQL database management. Currently I finished my studies BackEnd stack MERN (Mongo Db - Express - React - NodeJs)"
     },
     "navbar":{
         "home":"home",

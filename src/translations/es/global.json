@@ -1,7 +1,7 @@
 {
     "about": {
         "about": "Sobre Mi",
-        "p1": "Soy de Cordoba, Argentina. Me considero una persona con ambicion de conocimiento y aprendizaje, con actitud y etica de trabajo. Gracias a las diferentes habilidades que fui adquiriendo con tiempo y esfuerzo, logre posicionarme como Desarrollador FrontEnd. Mi mayor motivacion es seguir aprendiendo y creciendo en el campo de la programacion, para participar y contribuir en nuevos proyectos y retos. Me apasiona la programacion y todo lo que se puede lograr a partir del codigo. Actualmente estoy estudiando BackEnd, MERN Stack (MongoDB - Express - React - NodeJs)."
+        "p1": "Mi nombre es Fabrizio, soy de Córdoba Argentina. Soy una persona proactiva y apasionada por la tecnología, siempre buscando mantenerme al día con las últimas tendencias y herramientas en el campo de la programación. Es así que con el tiempo y el esfuerzo, me posicioné como Desarrollador Front-End en CoderHouse y Academia-X. Tiempo despues finalice mis estudios BackEnd stack MERN. Además de mis estudios informáticos, soy alumno en la facultad de lenguas, para perfeccionar mi nivel de ingles. Me gustaría aplicar mis conocimientos y habilidades, aportar valor en un equipo de programadores. Estoy dispuesto a aprender y desarrollarme profesionalmente, y estoy seguro de que puedo contribuir al éxito."
         
         
     },
@@ -18,8 +18,8 @@
         "tech":"Tecnologias con las que trabajo"
     },
     "home":{
-        "title":"Desarrollador Front-End",
-        "description":"Poseo experiencia diseñando y desarrollando software. Me encanta trabajar en aplicaciones Web completas, utilizando HTML, CSS, JavaScript y React, acompañado de frameworks y Herramientas como Bootstraps, Tailwind y mas. Actualmente estoy terminando la carrera de BackEnd para completar mi formacion Full Stack."
+        "title":"Desarrollador Full-Stack",
+        "description":"En mi trayectoria, he tenido la oportunidad de trabajar en distintos proyectos de programación. He desarrollado aplicaciones utilizando Html, CSS, Sass, Bootsrap, Tailwind, JavaScript, NodeJs, React y NextJs, y manejo de base de datos SQL. Actualmente finalice mis estudios BackEnd stack MERN (Mongo Db - Express - React - NodeJs)"
     },
     "navbar":{
         "home":"Inicio",
